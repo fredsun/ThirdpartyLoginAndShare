@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_share_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="134.4dp"
+        android:background="@drawable/solid_white"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_marginTop="9.6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享至:"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:id="@+id/rl_switch_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="14.4dp"
+           >
+
+            <TextView
+                android:id="@+id/tv_share_qq"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+
+                android:drawablePadding="9.6dp"
+                android:drawableTop="@drawable/ssdk_oks_classic_qq"
+                android:text="QQ"
+                android:gravity="center"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/tv_share_wechat"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:drawablePadding="9.6dp"
+                android:drawableTop="@drawable/ssdk_oks_classic_wechat"
+                android:text="微信"
+                android:gravity="center"
+                android:textColor="@color/gray"
+                />
+
+            <TextView
+                android:id="@+id/tv_share_weibo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:drawablePadding="9.6dp"
+                android:drawableTop="@drawable/ssdk_oks_classic_sinaweibo"
+                android:lines="1"
+                android:text="微博"
+                android:gravity="center"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/tv_share_wechatmoments"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:drawablePadding="9.6dp"
+                android:drawableTop="@drawable/ssdk_oks_classic_wechatmoments"
+                android:text="朋友圈"
+                android:gravity="center"
+                android:textColor="@color/gray"
+              />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
